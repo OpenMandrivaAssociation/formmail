@@ -12,6 +12,7 @@ URL:		    http://nms-cgi.sourceforge.net/scripts.shtml
 Source:         http://nms-cgi.sourceforge.net/%{name}_modules-%{version}.tar.bz2
 BuildRequires:	rpm-mandriva-setup >= 1.23
 BuildArch:	    noarch
+BuildRoot:	    %{_tmppath}/%{name}-%{version}
 
 %description
 NMS FormMail is a drop-in replacement for Matt Wright's FormMail script. It
