@@ -1,6 +1,6 @@
 %define name	formmail
 %define version	3.14m1
-%define release	%mkrel 3
+%define release	%mkrel 5
 
 Name:		    %{name}
 Version:	    %{version}
