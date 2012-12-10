@@ -46,3 +46,37 @@ rm -rf %{buildroot}
 %{perl_vendorlib}/CGI
 
 
+
+
+%changelog
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 3.14m1-6mdv2010.0
++ Revision: 428856
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 3.14m1-5mdv2009.0
++ Revision: 245303
+- rebuild
+
+* Sat Dec 22 2007 Guillaume Rousse <guillomovitch@mandriva.org> 3.14m1-3mdv2008.1
++ Revision: 136793
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Tue Dec 19 2006 Guillaume Rousse <guillomovitch@mandriva.org> 3.14m1-2mdv2007.0
++ Revision: 100238
+- really fix all perms issues
+- fix perl modules perms
+
+* Tue Dec 19 2006 Guillaume Rousse <guillomovitch@mandriva.org> 3.14m1-1mdv2007.1
++ Revision: 100214
+- Import formmail
+
+* Tue Dec 19 2006 Guillaume Rousse <guillomovitch@mandriva.org> 3.14m1-1mdv2007.1
+- first mdv release
+
