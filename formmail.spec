@@ -8,7 +8,7 @@ Release:	    %{release}
 Summary:	    Converts an HTML form submission to an email message
 License:	    Apache License
 Group:		    Networking/WWW
-URL:		    http://nms-cgi.sourceforge.net/scripts.shtml
+URL:		    https://nms-cgi.sourceforge.net/scripts.shtml
 Source:         http://nms-cgi.sourceforge.net/%{name}_modules-%{version}.tar.bz2
 BuildRequires:	rpm-mandriva-setup >= 1.23
 BuildArch:	    noarch
